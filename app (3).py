@@ -26,7 +26,7 @@ st.markdown("""
 
 @st.cache_resource
 def load_model():
-    return joblib.load("model.pkl")
+    return joblib.load("model(1).pkl")
 
 
 @st.cache_data
